@@ -10,7 +10,7 @@ jkl=raw_input("Use VPN?(Y/N): ")
 for x in range(10):
 	try:
 		s=socket.socket(2,socket.SOCK_STREAM)
-		s.connect(('serveo.net',2742))
+		s.connect(('serveo.net',4201))
 		break
 	except:
 		time.sleep(5)
