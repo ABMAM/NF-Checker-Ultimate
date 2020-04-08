@@ -1,8 +1,8 @@
 # NF-Checker-Ultimate
 
-git clone https://github.com/ABMAM/NF-Checker-Ultimate.git
+git clone https://github.com/ABMAM/Netflix_Checker
 
-cd NF-Checker-Ultimate
+cd Netflix_Checker
 
 chmod +x *
 
